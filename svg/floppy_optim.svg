@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+ <symbol id="floppy">
+  <path fill="currentColor" d="M0 .5h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zm0 3h3v3H0zM33 .501v3h-3v-3zm-3 0v3h-3v-3zm-3-.002v3h-3v-3zM24 .5v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3H9v-3zM9 .499v3H6v-3zM6 .5v3H3v-3zm30 3v3h-3v-3zM9 6.499v3H6v-3z"/>
+  <path fill="currentColor" d="M9 3.499v3H6v-3zm0 6v3H6v-3zm21-2.998v3h-3v-3zm0-3v3h-3v-3z"/>
+  <path fill="currentColor" d="M30 9.501v3h-3v-3zM24 6.5v3h-3v-3zm0-3v3h-3v-3zm0 6v3h-3v-3zm6 3.001v3h-3v-3zm-3-.002v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3H9v-3zm-3-.002v3H6v-3zm24 9.002v3h-3v-3zm-3 0v3h-3v-3zm-3-.002v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3H9v-3zm-3-.002v3H6v-3zm24 3.002v3h-3v-3zm-24-.002v3H6v-3zm24 3.002v3h-3v-3zm-24-.002v3H6v-3zm24 3.002v3h-3v-3z"/>
+  <path fill="currentColor" d="M9 30.499v3H6v-3zm0 3v3H6v-3zm24 .002v3h-3v-3zm3 2.999v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3h-3v-3zm-3-.002v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 .001v3h-3v-3zm-3 0v3H9v-3zm-3-.002v3H6v-3zM6 36.5v3H3v-3zm33 3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3z"/>
+</symbol>
+</svg>

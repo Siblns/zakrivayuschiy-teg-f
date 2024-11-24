@@ -1,1 +1,27 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* В этом файле будут храниться все значения переменных в исходном состоянии, 
+а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font-family: 'Inter';
+  --accent-font-family: 'PressStart2P';
+  --font-weigth-normal: 400;
+  --card-title-weigth: 700;
+  --card-text-weigth: 400;
+  --main-color: #fff;
+  --accent-color: #000;
+  --buttom-text-color: var(--main-color, #fff);
+  --heart-accent-fill: red;
+  --bg-gradient-main: #d3d3d3;
+  --bg-gradient-begin: #E7E7E7;
+  --bg-gradient-end: #1A1A1A;
+  --bg-image: 
+    repeating-linear-gradient(to left,
+      var(--bg-gradient-main, #d3d3d3) 0 2px,
+      transparent 2px 4px),
+    repeating-linear-gradient(to top,
+      var(--bg-gradient-main, #d3d3d3) 0 2px,
+      transparent 2px 4px),
+    repeating-linear-gradient(180deg,
+      var(--bg-gradient-begin, #E7E7E7) 0.01%,
+      var(--bg-gradient-end, #1A1A1A) 100%);
+}

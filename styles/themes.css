@@ -2,5 +2,41 @@
 Придерживайтесь такого именования классов:
 ✦ theme-dark — класс тёмной темы
 ✦ theme-light — класс светлой темы
-✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
+✦ не забудьте описать стили для изменения темы через медизапрос пользовательских 
+предпочтений
 */
+
+.theme-light {
+  --main-color: #fff;
+  --accent-color: #000;
+  --card-title-weigth: 700;
+  --card-text-weigth: 400;
+  --bg-gradient-main: #d3d3d3;
+  --bg-gradient-begin: #E7E7E7;
+  --bg-gradient-end: #1A1A1A;
+  --buttom-text-color: var(--main-color, #fff);
+}
+
+.theme-dark {
+  --main-color: #000;
+  --accent-color: #00cc14;
+  --card-title-weigth: 785;
+  --card-text-weigth: 465;
+  --bg-gradient-main: #000;
+  --bg-gradient-begin: #007f0c;
+  --bg-gradient-end: #004306;
+  --buttom-text-color: var(--accent-color, #00cc14);
+}
+
+@media (prefers-color-scheme: dark) {
+  .root {
+    --main-color: #000;
+    --accent-color: #00cc14;
+    --card-title-weigth: 785;
+    --card-text-weigth: 465;
+    --bg-gradient-main: #000;
+    --bg-gradient-begin: #007f0c;
+    --bg-gradient-end: #004306;
+    --buttom-text-color: var(--accent-color, #00cc14);
+  }
+}
