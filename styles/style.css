@@ -22,7 +22,7 @@
   background-position: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: var(--theme-weigth, 400);
+  font-variation-settings: "wght" 400;
 }
 
 .header {
@@ -75,10 +75,10 @@
   font-weight: var(--font-weigth-normal, 400);
   font-size: 14px;
   line-height: 1em;
-  text-decoration: none;  
+  text-decoration: none;
   text-transform: uppercase;
   background-color: transparent;
-  transition: all 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
   cursor: pointer;
 }
 
@@ -224,7 +224,7 @@
   align-items: center;
   border: 2px solid var(--accent-color, #000);
   overflow: hidden;
-  transition: all 0.5s ease;
+  transition: box-shadow 0.5s ease;
   cursor: pointer;
 } 
 
@@ -309,7 +309,7 @@
 
   .main-body {
     fill: var(--accent-color);
-    transition: all .3s linear 0.05s;
+    transition: fill .3s linear 0.05s;
   }
 
   .core {
