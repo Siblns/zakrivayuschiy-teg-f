@@ -22,7 +22,7 @@
   background-position: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wght" 400;
+  font-variation-settings: "wght" var(--font-weigth-normal, 400);
 }
 
 .header {
@@ -37,6 +37,7 @@
   font-weight: var(--font-weigth-normal, 400);
   text-align: center;
   background-color: var(--main-color, #fff);
+  font-variation-settings: "wght" var(--font-weigth-normal, 400);
 }
 
 .header-title {
@@ -166,6 +167,7 @@
   font-weight: var(--card-title-weigth, 700);
   font-size: 18px;
   line-height: 1.21em;
+  font-variation-settings: "wght" var(--card-title-weigth, 700);
 }
 
 .card__img {
@@ -187,6 +189,7 @@
   font-size: 18px;
   line-height: 1.17em;
   margin-block-end: 25.5px;
+  font-variation-settings: "wght" var(--card-text-weigth, 400)
 }
 
 .wrapper {
@@ -391,10 +394,12 @@
 
   .footer .button {
     flex-direction: column;
+    gap: 4px;
   }
 
   .footer .footer__icon {
     max-width: 36px;
+    max-height: 36px;
   }
 }
 
@@ -402,11 +407,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 50px;
   margin-bottom: clamp(6.25rem, 6.1835rem + 0.2128vw, 6.375rem);
 }
 
 .footer__icon {
   max-width: 21px;
+  max-height: 21px;
   mix-blend-mode: difference;
 }
 
