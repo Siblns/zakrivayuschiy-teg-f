@@ -383,7 +383,7 @@
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 500px) {
   .page {
     padding: 0;
   }
