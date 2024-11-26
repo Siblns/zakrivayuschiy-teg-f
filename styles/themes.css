@@ -6,7 +6,7 @@
 предпочтений
 */
 
-.theme-light {
+:root.theme-light {
   --main-color: #fff;
   --accent-color: #000;
   --card-title-weigth: 700;
@@ -17,7 +17,7 @@
   --buttom-text-color: var(--main-color, #fff);
 }
 
-.theme-dark {
+:root.theme-dark {
   --main-color: #000;
   --accent-color: #00cc14;
   --card-title-weigth: 785;
@@ -29,7 +29,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .root {
+  :root {
     --main-color: #000;
     --accent-color: #00cc14;
     --card-title-weigth: 785;
