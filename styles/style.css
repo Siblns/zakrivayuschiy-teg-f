@@ -308,7 +308,7 @@
   .main-body {
     fill: var(--accent-color);
     transition-delay: .05s;
-  }    
+  }
 }
 
 .like-icon:active {
@@ -316,7 +316,7 @@
   .main-body,
   .core {
     fill: var(--heart-accent-fill);
-  }  
+  }
 }
 
 .like-icon.is-liked {
